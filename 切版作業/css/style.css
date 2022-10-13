@@ -1,0 +1,1397 @@
+html,
+body {
+  height: 100%
+}
+
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.container {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.h-100 {
+  height: 100%
+}
+
+#header {
+  background: linear-gradient(white 99%, gray 1%);
+  color: gray;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: auto;
+
+
+
+
+
+}
+
+p {
+  color: gray;
+  font-size: 10px;
+  text-align: left;
+
+
+
+}
+
+
+input {
+  padding: 5px 15px;
+
+  border: 0.1rem solid black;
+  cursor: pointer;
+  -webkit-border-radius: 1px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 500px;
+  height: 30px;
+}
+
+#header .glass {
+
+  margin: 10px;
+
+  width: 30px;
+  height: 20px;
+  padding: 0.7rem;
+  color: black;
+  border: 1px solid;
+  text-align: center;
+  position: absolute;
+  left: 1172px;
+
+}
+
+#header .glass :hover {
+  background: gray;
+
+}
+
+#header .set {
+
+  margin: 10px;
+
+  width: 30px;
+  height: 20px;
+  padding: 0.7rem;
+
+
+  text-align: center;
+  position: absolute;
+  left: 1750px;
+
+}
+
+#header .set :hover {
+  background: gray;
+
+}
+
+#header .sound {
+
+  margin: 10px;
+
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 0.7rem;
+  color: black;
+  background: F9F9F9;
+
+  text-align: center;
+  position: absolute;
+  left: 1226px;
+
+}
+
+#header .sound :hover {
+  background: gray;
+
+}
+
+#header .loginicon {
+  margin: 10px;
+
+  width: 65px;
+  height: 13px;
+  padding: 0.7rem;
+  color: blue;
+  border: 1px solid;
+  text-align: center;
+  position: relative;
+  left: 1800px;
+  font-size: 16px;
+  top: 5px;
+
+}
+
+
+#header .text {
+
+  margin: auto;
+  border: 1rem;
+  position: absolute;
+  left: 650px;
+
+  font-size: 40px;
+  text-align: center;
+}
+
+#headerbt {
+  background: linear-gradient(white 99%, gray 1%);
+  color: black;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  left: 50%;
+  top: 60px;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-size: 1.5rem;
+  font-style: italic;
+
+
+
+
+}
+
+#headerbt span {
+  height: 50px;
+  width: 80px;
+  border: 0.1rem solid;
+  border-radius: 20px;
+  position: relative;
+  left: 710px;
+  top: 20px;
+  font-size: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-left: 10px;
+  background: #f2f2f2;
+  border-color: #E8E8E8;
+
+
+}
+
+#headerbt span:hover {
+  background: gray;
+
+}
+
+#header .menu li a {
+  color: white;
+  display: block;
+  padding: 0.5rem 1.5rem;
+  transition: 0.5s;
+  text-decoration: none;
+
+}
+
+#header .menu li a:hover {
+  background: gray;
+}
+
+#lefthd {
+  width: 240px;
+  height: 70px;
+  background: white;
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-size: 0.5rem;
+  z-index: 1;
+}
+
+#leftft {
+  width: 240px;
+  height: 1400px;
+  background: white;
+  position: fixed;
+  left: 0;
+  top: 70px;
+  z-index: 1;
+  color: black;
+  max-height: 880px;
+  overflow-y: scroll;
+}
+
+
+
+
+
+
+::-webkit-scrollbar {
+
+  width: 10px;
+
+}
+
+::-webkit-scrollbar-button {
+
+  background: transparent;
+
+  border-radius: 4px;
+
+}
+
+::-webkit-scrollbar-track-piece {
+
+  background: transparent;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+  border-radius: 4px;
+
+  background-color: rgba(0, 0, 0, 0.4);
+
+  border: 1px solid gray;
+
+}
+
+::-webkit-scrollbar-track {
+
+  box-shadow: transparent;
+
+}
+
+
+#leftft .text {
+
+  overflow: auto;
+
+
+
+
+}
+
+#leftft .text li a {
+
+
+  display: block;
+  padding: 0.5rem 1.4rem;
+  transition: 0.5s;
+  text-decoration: none;
+  color: black;
+
+}
+
+#leftft .text .ft {
+  padding: 0.5rem 1.4rem;
+  color: gray;
+  font-size: 0.5rem;
+}
+
+#leftft .text .copy {
+  padding: 0.5rem 1.4rem;
+  color: gray;
+  font-size: 0.5rem;
+}
+
+
+
+
+#leftft .text li a:hover {
+  background: gray;
+}
+
+#leftft .text .login {
+  padding: 1.2rem;
+
+}
+
+#leftft .text .loginicon {
+  margin: 10px;
+
+  width: 70px;
+  height: 13px;
+  padding: 0.7rem;
+  color: blue;
+  border: 1px solid;
+  text-align: center;
+  position: relative;
+  left: 10px;
+  top: -10px;
+}
+
+#leftft .text .tenso {
+  margin: 20px;
+  color: gray;
+
+}
+
+#leftft .text li b {
+  margin: auto;
+  padding: 0.5rem 1.4rem;
+
+
+
+  color: red;
+
+
+}
+
+
+
+
+
+
+
+#lefthd .yticon {
+  color: red;
+
+  font-size: 3em;
+  position: absolute;
+  left: 70px;
+  top: 20px;
+}
+
+#lefthd .yt {
+  color: black;
+  text-shadow: 0.02em 0.02em black;
+  letter-spacing: -0.13em;
+
+  font-size: 2.3em;
+  position: absolute;
+  left: 98px;
+  top: 23px;
+
+}
+
+#lefthd .tw {
+  color: gray;
+  font-size: 1em;
+  position: absolute;
+  left: 165px;
+  top: 17px;
+
+
+}
+
+
+#lefthd .box {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+
+
+  width: 16px;
+  height: 1px;
+
+  border-top: 2px solid;
+
+  border-bottom: 2px solid;
+
+  padding: 4.5px 0;
+  background: black;
+  background-clip: content-box;
+}
+
+
+
+#bodyyt .yt1 {
+
+  background: white;
+  position: absolute;
+  top: 160px;
+  left: 190px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+#bodyyt .text {
+  position: absolute;
+  top: 240px;
+  left: 100px;
+
+}
+
+#bodyyt .yt1:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt1:hover::before {
+  position: absolute;
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+  color: white;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt1:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt2 {
+
+  background: white;
+  position: absolute;
+  top: 160px;
+  left: 590px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt2:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt2:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt2:hover::after {
+  position: absolute;
+
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+  color: white;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt3 {
+
+  background: white;
+  position: absolute;
+  top: 160px;
+  left: 1000px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt3:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt3:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt3:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt4 {
+
+  background: white;
+  position: absolute;
+  top: 160px;
+  left: 1420px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt4:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt4:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt4:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt5 {
+  background: white;
+  position: absolute;
+  top: 520px;
+  left: 190px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt5:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt5:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt5:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt6 {
+  background: white;
+  position: absolute;
+  top: 520px;
+  left: 590px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt6:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt6:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt6:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt7 {
+  background: white;
+
+  position: absolute;
+  top: 520px;
+  left: 1000px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt7:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt7:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt7:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt8 {
+  background: white;
+
+  position: absolute;
+  top: 520px;
+  left: 1420px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt8:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt8:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt8:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt9 {
+
+  background: white;
+  position: absolute;
+  top: 880px;
+  left: 190px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt9:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt9:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt9:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt10 {
+
+  background: white;
+  position: absolute;
+  top: 880px;
+  left: 590px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt10:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt10:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt10:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt11 {
+  background: white;
+  position: absolute;
+  top: 880px;
+  left: 1000px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt11:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt11:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt11:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt12 {
+  background: white;
+
+  position: absolute;
+  top: 880px;
+  left: 1420px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt12:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt12:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt12:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt13 {
+  background: white;
+
+  position: absolute;
+  top: 1250px;
+  left: 190px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt13:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt13:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt13:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt14 {
+  background: white;
+
+  position: absolute;
+  top: 1250px;
+  left: 590px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt14:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt14:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt14:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt15 {
+  background: white;
+
+  position: absolute;
+  top: 1250px;
+  left: 1000px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt15:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt15:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt15:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
+
+#bodyyt .yt16 {
+  background: white;
+
+  position: absolute;
+  top: 1250px;
+  left: 1420px;
+
+
+  margin: auto;
+  padding: 50px;
+  text-align: left;
+
+}
+
+
+
+#bodyyt .yt16:hover {
+  transform: scale(1.2);
+  font-size: 16px;
+  transition-delay: 1s;
+  z-index: 1;
+}
+
+#bodyyt .yt16:hover::before {
+  position: absolute;
+  color: white;
+
+  top: 220px;
+  left: 240px;
+  background: black;
+  font-size: 12px;
+
+
+
+
+  content: '將滑鼠游標懸停在上方即可播放';
+}
+
+#bodyyt .yt16:hover::after {
+  position: absolute;
+  color: white;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  height: 30px;
+  width: 360px;
+
+  top: 320px;
+  left: 50px;
+  background: gray;
+  font-size: 24px;
+  transition-delay: 1s;
+  text-align: center;
+  line-height: 30px;
+
+
+
+
+  content: "\f07c 稍後觀看  \00A0 \00A0   \00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0\00A0      \f2b4加入待播清單";
+  font-size: 14px;
+
+}
